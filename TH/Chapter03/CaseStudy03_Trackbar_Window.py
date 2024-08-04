@@ -14,7 +14,7 @@ while True:
     img = cv.imread('number.jpg')
 
     if img is None:
-        print("Không thể đọc ảnh.")
+        print("Khong the doc anh !")
         break
 
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
